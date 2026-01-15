@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="fixed-header">
+            <h1>todo list</h1>
+            <div class="input-section">
+                <div class="input-row">
+                    <input type="text" id="newTodoInput" placeholder="new todo" class="todo-input">
+                    <button id="addButton" class="add-button">add</button>
+                </div>
+                <textarea id="descriptionInput" placeholder="description" class="description-input"></textarea>
+            </div>
+        </div>
+        <div class="todo-list-container" id="todoListContainer">
+            <!-- Todo items will be dynamically added here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
